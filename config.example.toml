@@ -1,0 +1,11 @@
+# Copy to config.toml and fill in. config.toml is ignored by git.
+# The client secret is read from the environment, never from this file:
+#   export SECNEWS_CLIENT_SECRET=...
+
+client_id = "your-app-client-id"
+reddit_username = "filipi86"   # used only in the User-Agent
+subreddits = ["blueteamsec", "netsec", "cybersecurity"]
+posts_per_request = 25         # Reddit's /new listing, newest first
+retention_days = 30
+database = "secnews.db"
+digest_dir = "digests"

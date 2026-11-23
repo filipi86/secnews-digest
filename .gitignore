@@ -1,0 +1,5 @@
+config.toml
+*.db
+digests/
+__pycache__/
+.env
